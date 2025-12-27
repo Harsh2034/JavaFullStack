@@ -5,7 +5,6 @@ class Rectangle{
 	int base;
 	static double  a = 0.5;
 	
-	
 	Rectangle(int height, int base){
 		this.base = base;
 		this.height = height;
@@ -24,9 +23,5 @@ public class AreaOfRect {
 		Rectangle r  = new Rectangle(height, base);
 		System.out.println(r.display());
 		
-		
-		
-
 	}
-
 }
